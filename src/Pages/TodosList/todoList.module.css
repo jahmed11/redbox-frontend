@@ -1,0 +1,19 @@
+.todoList-container {
+  width: 800px;
+  margin: auto;
+  padding-top: 6rem;
+}
+
+.todoList-container :global(.ant-list-items) {
+  height: 400px;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.todoList-container :global(.ant-list-item-action) {
+  align-self: baseline;
+}
+
+.todoList-container :global(.ant-list-item-meta-title) {
+  text-transform: capitalize;
+}
