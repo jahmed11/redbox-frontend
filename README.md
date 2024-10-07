@@ -1,17 +1,27 @@
-use node version 18 or greater
+# React Todo List Application
+# use node version 18 or greater
 
-Install Dependencies
+### 1. Clone the Repository
+
+### First, clone the repository to your local machine:
+
+```bash
+git clone <repository-url>
+cd <project-folder>
+````
+
+### Install Dependencies
 ```
 npm install
 ```
 
-run project in dev mode
+### run the project in dev mode
 
 ```
 npm run dev
 ```
 
-the project will run at 
+### The project will run at 
 
 ```
 http://localhost:5173/
