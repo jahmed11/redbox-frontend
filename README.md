@@ -10,3 +10,9 @@ run project in dev mode
 ```
 npm run dev
 ```
+
+the project will run at 
+
+```
+http://localhost:5173/
+```
