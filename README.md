@@ -1,5 +1,5 @@
 # React Todo List Application
-# use node version 18 or greater
+# use node version 18 or higher
 
 ### 1. Clone the Repository
 
