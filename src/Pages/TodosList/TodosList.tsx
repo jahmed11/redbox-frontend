@@ -121,16 +121,18 @@ const TodosList = () => {
   };
 
   return (
-    <div className={styles["todoList-container"]}>
+    <>
       {openAddTodo && <AddTodo {...addTodoProps} />}
-      <List
-        rowKey="id"
-        loading={todoLoading}
-        header={<ListHeader onAddClick={onAddClick} />}
-        dataSource={todos}
-        renderItem={(todo) => <Todo todo={todo} {...todoProps} />}
-      />
-    </div>
+      <div className={styles["todoList-container"]}>
+        <List
+          rowKey="id"
+          loading={todoLoading}
+          header={<ListHeader onAddClick={onAddClick} />}
+          dataSource={todos}
+          renderItem={(todo) => <Todo todo={todo} {...todoProps} />}
+        />
+      </div>
+    </>
   );
 };
 
