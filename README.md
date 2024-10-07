@@ -10,12 +10,12 @@ git clone <repository-url>
 cd <project-folder>
 ````
 
-### Install Dependencies
+### 2. Install Dependencies
 ```
 npm install
 ```
 
-### run the project in dev mode
+### 3. Run the project in dev mode
 
 ```
 npm run dev
